@@ -97,7 +97,7 @@ public class PruebaTecnica {
         LOG.log(Level.INFO,"Contando palabras...");
         List<WebElement> elements = driver.findElements(By.xpath("//p[contains(text(),'Faraday')]"));
         int vecesAparicion = elements.size();
-        LOG.log(Level.INFO,"La palabra Faraday aparece \"+vecesAparicion+\" veces");
+        LOG.log(Level.INFO,"La palabra Faraday aparece "+vecesAparicion+" veces");
 
     }
 
